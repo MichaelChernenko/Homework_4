@@ -1,0 +1,86 @@
+.wrapper{
+    background-image: url( "../img/background.jpg" );
+    background-repeat: repeat-x;
+    background-size: 100%;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.container{
+    position: relative;
+    width: 1000px;
+    height: 990px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.logo{
+    background-image: url( "../img/logo.png" );
+    position: absolute;
+    left: 30px;
+    top: 21px;
+    width: 283px;
+    height: 164px;
+}
+
+p{
+    position: absolute;
+    left: 105px;
+    top: 120px;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb(18, 138, 167);
+    line-height: 1.2;
+}
+
+.ocean{
+    background-image: url( "../img/ocean.png" );
+    position: absolute;
+    top:-29px;
+    left: -88px;
+    height: 450px;
+    width: 1176px;
+}
+
+li{
+    list-style: none;
+}
+
+.contacts{
+    position: absolute;
+    top: 10px;
+    right: -45px;
+    font-family: "Tahoma";
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.2;
+    color: rgba(18, 138, 167, 0.8);
+    padding: 0 80px 0 0;
+}
+
+#contact{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ .country {
+     position: absolute;
+     top: 120px;
+     right: 23px;
+ }
+
+a{
+    color: rgba(18, 138, 167, 0.8);
+}
+
+ .country li{
+     display: inline-block;
+     text-align: center;
+     font-size: 10px;
+     font-family: "Tahoma";
+     color: rgba(18, 138, 167, 0.8);
+     width: 56px;
+ }
+
+
